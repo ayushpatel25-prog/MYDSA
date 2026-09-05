@@ -1,4 +1,5 @@
 // LINKLIST IMPLIMENTATION OF QUEUE
+// its advantage 1-waste if space not there 2-unlimited size 3-natural
 #include<iostream>
 using namespace std;
 class Node{
@@ -33,8 +34,10 @@ class Queue{
             cout<<"Queue is empty";
             return;
         }
+        Node* temp=head;
         head=head->next;
         size--;
+        delete(temp);
      }
      int front(){
         if(size==0){
