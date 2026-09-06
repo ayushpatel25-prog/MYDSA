@@ -19,3 +19,6 @@ QUESTION4:-SLIDING WINDOW MAXIMUM(LEETCODE 239)
 >now we are going to do this question through dequeue (timecomplexity O(n))
 >here we use decreasing monotonic deque
  
+QUESTION5:-dota2 senate(LEETCODE 649)
+
+QUESTION6:-REVEAL CARDS IN INCREASING ORDER(LEETCODE 950) 
